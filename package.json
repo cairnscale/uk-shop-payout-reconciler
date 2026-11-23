@@ -1,0 +1,25 @@
+{
+  "name": "@cairnscale/uk-shop-payout-reconciler",
+  "version": "1.0.0",
+  "description": "Zero-dependency BigInt integer-pence reconciliation bridge comparing Shopify, WooCommerce, and Stripe CSV payouts against Xero or FreeAgent postings.",
+  "type": "module",
+  "main": "./index.mjs",
+  "bin": {
+    "uk-shop-payout-reconciler": "./index.mjs"
+  },
+  "scripts": {
+    "test": "node --test test.mjs"
+  },
+  "keywords": [
+    "shopify",
+    "stripe",
+    "woocommerce",
+    "xero",
+    "freeagent",
+    "reconciliation",
+    "uk-vat"
+  ],
+  "homepage": "https://cairnscale.uk/tools/order-reconciliation/",
+  "author": "cairnscale <hello@cairnscale.uk>",
+  "license": "MIT"
+}
